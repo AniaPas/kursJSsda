@@ -1,0 +1,126 @@
+:root {
+    background: #c9c9c9;
+    font-family: 'Ruda', sans-serif;
+  }
+.menu ul {
+    margin-left:70%;
+    margin-right: 2px;
+  padding:2% 2% 2% 2%;
+    list-style-type:none;
+    background-color: darkred;
+    width: 30vw;
+}
+.menu ul li {
+  background-color: beige;
+  display: inline-block;
+}
+.menu ul > li > a {
+  display: block;
+  border: 1px solid #000;
+  text-decoration:none;
+  color:#000;
+  background-color: rgb(107, 164, 164);
+}
+p {
+  color: blue;
+  text-align: justify;
+}
+button {
+  background-color: aqua;
+  margin-left: 75%;
+}
+.menu2 ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.menu2 ul li {
+  float: right; 
+
+}
+.menu2 ul li a {
+  display: block;
+  border-top: 2px solid rgba(0, 0, 0, 0);
+  border-right: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  padding: 14px;
+}
+.menu2 ul li a:hover{
+border-top: 2px solid #000;
+border-right: 2px solid #000;
+border-bottom: 2px solid #000;
+}
+.menu2 ul li a {
+  transition: border 1s;
+}
+.menu3 ul {
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+.menu3 ul li {
+  
+  float: right; 
+  background-color: darkgoldenrod;
+  transform: rotate(45deg);
+  padding-left: 15px;
+  
+}
+.menu3 ul li a {
+  display: block;
+  transform: rotate(315deg);
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+ margin-right: 15px;
+  padding: 14px;
+}
+
+.grid-container{
+  width:30vw;
+  height:15px;
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  position:relative;
+  background-color: darkgoldenrod;
+  padding: 15px;
+  transform: rotate(45deg);
+}
+.grid-item a {
+  display:block;
+  position:absolute;
+  transform: rotate(315deg);
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+
+  background: rgb(0, 0, 0);
+}
+.navigation  li {
+  background-color :darkgoldenrod;
+  transform: skew(20deg);
+  align-content: space-between;
+  margin-left: 6em;
+}
+  .navigation li a {
+  text-decoration: none;
+ transform: skew(-20deg);
+  display: block;
+  width: 4em;
+  overflow: visible;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
